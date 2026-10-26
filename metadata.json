@@ -1,0 +1,6 @@
+{
+  "name": "PromptCraft Studio",
+  "description": "Structure, refine, and organize custom AI prompts with strict Markdown templates and local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

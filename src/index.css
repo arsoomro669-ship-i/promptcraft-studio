@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-base: #1A1A2E;
+    --bg-card: #2A2A3E;
+    --bg-card-hover: #32324A;
+    --border-color: #383852;
+    --accent-emerald: #33C375;
+    --accent-emerald-hover: #2bb268;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #1A1A2E;
+    color: #F1F5F9;
+    overflow-x: hidden;
+  }
+
+  pre, code, textarea.font-mono, input.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars for editor and sidebar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1A2E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #383852;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4E4E6E;
+}
